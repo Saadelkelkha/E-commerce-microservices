@@ -18,7 +18,8 @@ A microservices-based architecture for **FastDelivery**, a startup managing deli
 ### 📂 **API Endpoints**  
 
 #### **🛍️ Product Service**  
-- `POST /produit/ajouter ` → Add a new product  
+- `POST /produit/ajouter ` → Add a new product
+  <img src="img/ajouter_produit.png">
 - `GET /produit/:id` → Get product details  
 - `PATCH /produit/:id/stock` → Update stock  
 
