@@ -20,22 +20,32 @@ A microservices-based architecture for **FastDelivery**, a startup managing deli
 #### **🛍️ Product Service**  
 - `POST /produit/ajouter ` → Add a new product
   <img src="img/ajouter_produit.png">
-- `GET /produit/:id` → Get product details  
-- `PATCH /produit/:id/stock` → Update stock  
+- `GET /produit/:id` → Get product details
+  <img src="img/produit.png">
+- `PATCH /produit/:id/stock` → Update stock
+  <img src="img/edit_stock.png">
 
 #### **📦 Order Service**  
-- `POST /commande/ajouter` → Place a new order  
-- `GET /commande/:id` → Retrieve order details  
-- `PATCH /commande/:id/statut` → Update order status  
+- `POST /commande/ajouter` → Place a new order
+  <img src="img/ajouter_commande.png">
+- `GET /commande/:id` → Retrieve order details
+  <img src="img/commande.png">
+- `PATCH /commande/:id/statut` → Update order status
+  <img src="img/edit_commande_sstatut.png">
 
 #### **🚚 Delivery Service**  
-- `POST /livraison/ajouter` → Assign a carrier & create delivery  
-- `PUT /livraison/:id` → Update delivery status  
+- `POST /livraison/ajouter` → Assign a carrier & create delivery
+  <img src="img/ajouter_produit.png">
+- `PUT /livraison/:id` → Update delivery status
+  <img src="img/livraison.png">
 
 #### **🔐 Authentication Service**  
-- `POST /auth/register` → Register a new user  
-- `POST /auth/login` → Authenticate & get JWT  
-- `GET /auth/profil` → Get user details (JWT required)  
+- `POST /auth/register` → Register a new user
+  <img src="img/register.png">
+- `POST /auth/login` → Authenticate & get JWT
+  <img src="img/login.png">
+- `GET /auth/profil` → Get user details (JWT required)
+  <img src="img/profil.png">
 
 ### 🛠 **Tech Stack**  
 - **Backend**: Node.js, Express  
