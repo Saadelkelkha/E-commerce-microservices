@@ -35,7 +35,7 @@ A microservices-based architecture for **FastDelivery**, a startup managing deli
 
 #### **🚚 Delivery Service**  
 - `POST /livraison/ajouter` → Assign a carrier & create delivery
-  <img src="img/ajouter_produit.png">
+  <img src="img/ajouter_livraison.png">
 - `PUT /livraison/:id` → Update delivery status
   <img src="img/livraison.png">
 
