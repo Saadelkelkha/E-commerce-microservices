@@ -18,23 +18,23 @@ A microservices-based architecture for **FastDelivery**, a startup managing deli
 ### 📂 **API Endpoints**  
 
 #### **🛍️ Product Service**  
-- `POST /product/add` → Add a new product  
-- `GET /product/:id` → Get product details  
-- `PATCH /product/:id/stock` → Update stock  
+- `POST /produit/ajouter ` → Add a new product  
+- `GET /produit/:id` → Get product details  
+- `PATCH /produit/:id/stock` → Update stock  
 
 #### **📦 Order Service**  
-- `POST /order/add` → Place a new order  
-- `GET /order/:id` → Retrieve order details  
-- `PATCH /order/:id/status` → Update order status  
+- `POST /commande/ajouter` → Place a new order  
+- `GET /commande/:id` → Retrieve order details  
+- `PATCH /commande/:id/statut` → Update order status  
 
 #### **🚚 Delivery Service**  
-- `POST /delivery/add` → Assign a carrier & create delivery  
-- `PUT /delivery/:id` → Update delivery status  
+- `POST /livraison/ajouter` → Assign a carrier & create delivery  
+- `PUT /livraison/:id` → Update delivery status  
 
 #### **🔐 Authentication Service**  
 - `POST /auth/register` → Register a new user  
 - `POST /auth/login` → Authenticate & get JWT  
-- `GET /auth/profile` → Get user details (JWT required)  
+- `GET /auth/profil` → Get user details (JWT required)  
 
 ### 🛠 **Tech Stack**  
 - **Backend**: Node.js, Express  
