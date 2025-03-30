@@ -39,7 +39,6 @@ A microservices-based architecture for **FastDelivery**, a startup managing deli
 ### 🛠 **Tech Stack**  
 - **Backend**: Node.js, Express  
 - **Database**: MongoDB  
-- **Authentication**: JWT  
-- **Deployment**: Docker (optional)  
+- **Authentication**: JWT   
 
 🚀 **Contributions & Feedback Welcome!**
